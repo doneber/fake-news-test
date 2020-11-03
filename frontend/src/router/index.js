@@ -16,11 +16,6 @@ Vue.use(VueRouter)
     name: 'About',
     component: About
   },
-  {
-    path: '/test/*',
-    name: 'Test',
-    component: () => import('../views/Test.vue')
-  }
 ]
 
 const router = new VueRouter({
